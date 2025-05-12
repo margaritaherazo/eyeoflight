@@ -15,3 +15,27 @@
   font-size: 3rem;
   font-weight: bold;
 }
+
+.service-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.service-icon:hover {
+  transform: scale(1.1);
+}
+
+.services-section p {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.services-section a {
+  text-decoration: none;
+  color: inherit;
+}
+
